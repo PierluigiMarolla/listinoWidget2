@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #151950;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container-grid {
+  position: relative;
+}
+
+.ancor {
+  position: absolute;
+  top: 0;
+}
+
+.ancor-set {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.closed {
+  visibility: hidden;
+}
+
+.tabOpen {
+  display: block;
+}
+
+.tabClosed {
+  display: none;
+}
+
+.margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.detGrid{
+  padding: 10px;
+}
+
+.pop-up{
+  width: 400px;
+  padding: 30px;
+  background-color: white;
+  border: solid 2px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.pop-up input{
+  margin: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.pop-up label{
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.input-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chiodo {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-bar {
+  width: 400px;
+  background-color: red;
+  padding: 10px;
+  height: 100%;
+  border: solid 2px green;
+  border-right: 0;
+  
+}
+
+.log-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.386);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-container {
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.log-title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-X-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+}

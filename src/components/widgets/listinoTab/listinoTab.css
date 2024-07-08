@@ -1,0 +1,23 @@
+.k-grid .k-grid-md td, 
+.k-grid .k-grid-md .k-table-td, 
+.k-grid-md td, 
+.k-grid-md .k-table-td {
+    padding-block: 0 !important; 
+}
+
+.k-table-md .k-table-th, 
+.k-table-md .k-table-td {
+    padding-block: 0 !important;
+}
+
+.k-grid .k-grid-md td, 
+.k-grid .k-grid-md .k-table-td, 
+.k-grid-md td, 
+.k-grid-md .k-table-td{
+    padding-block: 0 !important;
+}
+
+.k-table-md .k-table-th, 
+.k-table-md .k-table-td {
+    padding-block: 0 !important;
+}
